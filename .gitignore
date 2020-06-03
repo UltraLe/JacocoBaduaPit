@@ -1,0 +1,4 @@
+# Project exclude paths
+/AnotherUselessModule/target/
+/bla/target/
+/UselessModule/target/
