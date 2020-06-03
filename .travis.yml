@@ -5,9 +5,8 @@ jdk:
 addons:
   sonarcloud:
     organization: "ultrale"
-    token: d09bef22ab70cd3ac1440756814902d7abf4d102
+    token: 82d34af42e85f61618c022468d0ccf43338d38b5
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  #- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
-  #- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent verify sonar:sonar -Dsonar.projectKey=
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=UltraLe_JacocoBaduaPit
