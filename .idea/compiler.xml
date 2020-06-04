@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="UselessModule" />
         <module name="AnotherUselessModule" />
         <module name="bla" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="UselessModule" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
