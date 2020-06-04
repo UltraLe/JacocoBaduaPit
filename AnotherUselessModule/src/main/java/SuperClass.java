@@ -1,11 +1,11 @@
 public class SuperClass {
 
-    public void superMethod(){
-        System.out.println("Yes, i am a super method");
+    public String superMethod(){
+        return "Yes, i am a super method";
     }
 
-    public void NotSuperMethod(){
-        System.out.println("No, i am not a super method");
+    public String NotSuperMethod(){
+        return "No, i am not a super method";
     }
 
 }
