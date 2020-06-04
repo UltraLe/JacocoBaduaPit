@@ -7,6 +7,11 @@
         <groupId>org.example</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
+    <properties>
+        <sonar.coverage.jacoco.xmlReportPaths>${basedir}/../${aggregate.report.dir}</sonar.coverage.jacoco.xmlReportPaths>
+    </properties>
+
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>UselessModule</artifactId>
