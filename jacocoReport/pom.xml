@@ -11,6 +11,8 @@
 
     <artifactId>jacocoReport</artifactId>
 
+    <!--METTERE nel modulo in cui sarà presente il report di jaccocco, tutti i moduli in cui è
+        eseguitoil test come DIPENDENZE, come qui sotto. -->
     <dependencies>
         <dependency>
             <groupId>org.example</groupId>

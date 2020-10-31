@@ -9,6 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+
     <modules>
         <module>AnotherUselessModule</module>
         <module>jacocoReport</module>
@@ -29,6 +30,7 @@
             <version>4.8.2</version>
             <scope>test</scope>
         </dependency>
+        <!-- dipendenza di pitest non aggiunta ma funge lo stesso. -->
     </dependencies>
 
     <build>
@@ -47,7 +49,7 @@
                         <param>superPackage.SuperTest*</param>
                     </targetTests>
                 </configuration>
-                <!-- execution -->
+                <!-- execution, qui inserire eventuali altri parametri -->
                 <executions>
                     <execution>
                         <goals>
