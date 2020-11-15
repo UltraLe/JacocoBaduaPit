@@ -2,3 +2,4 @@
 /AnotherUselessModule/target/
 /bla/target/
 /UselessModule/target/
+*.jar

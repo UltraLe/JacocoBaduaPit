@@ -21,6 +21,7 @@
         </dependency>
     </dependencies>
 
+    <!--
     <properties>
         <sonar.coverage.jacoco.xmlReportPaths>${basedir}/../${aggregate.report.dir}</sonar.coverage.jacoco.xmlReportPaths>
     </properties>
@@ -44,13 +45,14 @@
                 <groupId>org.pitest</groupId>
                 <artifactId>pitest-maven</artifactId>
                 <version>1.5.2</version>
-                <!-- Skipping this module in pitest -->
+
                 <configuration>
                     <skip>true</skip>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+    -->
 
 
 </project>
